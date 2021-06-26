@@ -23,6 +23,8 @@ const user = {
  * ------------------------
  */
 function App() {
+  const url = `https://twitter.com/${user.twitterUsername}`;
+
   return (
     <div className="App">
       {/* Show user data here */}
