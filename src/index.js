@@ -25,36 +25,15 @@ const user = {
 function App() {
   return (
     <div className="App">
-      {/_ Show user data here _/}
+      {/* Show user data here */}
       <div className="user-deets">
         <img src={user.avatar} alt={user.name} />
-
-        {/* <h3>
-          <a href={url}>{user.name}</a>
-        </h3> */}
-
-        <p>
-          <strong>Location</strong> {user.location}
-        </p>
-        <p>
-          <strong>Eats</strong> {user.foodType}
-        </p>
-        <p>
-          <strong>Age</strong> {user.age}
-        </p>
-        <p>
-          <strong>Likes</strong> {user.likes}
-        </p>
-
-        <p>
-          {/_ Twitter Link_/}
-          <strong>Twitter</strong> <a>@{user.twitterUsername}</a>
-        </p>
       </div>
 
       <ScotchInfoBar />
     </div>
   );
 }
+
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
