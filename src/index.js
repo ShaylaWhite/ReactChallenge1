@@ -33,9 +33,9 @@ function App() {
         <img src={user.avatar} alt={user.name} />
       </div>
 
-      {/* <h3>
-          <a href={url}>{user.name}</a>
-      </h3> */}
+      <h3>
+        <a href={url}>{user.name}</a>
+      </h3>
 
       <p>
         <strong>Location</strong> {user.location}
