@@ -26,9 +26,18 @@ function App() {
   return (
     <div className="App">
       {/* Show user data here */}
+
       <div className="user-deets">
         <img src={user.avatar} alt={user.name} />
       </div>
+
+      {/* <h3>
+          <a href={url}>{user.name}</a>
+      </h3> */}
+
+      <p>
+        <strong>Location</strong> {user.location}
+      </p>
 
       <ScotchInfoBar />
     </div>
