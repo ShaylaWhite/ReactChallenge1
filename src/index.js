@@ -51,11 +51,11 @@ function App() {
         <strong>Likes</strong> {user.likes}
       </p>
 
-      {/* <p>
-                    {/_ Twitter Link_/}
-          <strong>Twitter</strong>{' '}
-          <a>@{user.twitterUsername}</a>
-        </p> */}
+      <p>
+        <p>
+          <strong>Twitter</strong> <a href={url}>@{user.twitterUsername}</a>
+        </p>
+      </p>
 
       <ScotchInfoBar />
     </div>
