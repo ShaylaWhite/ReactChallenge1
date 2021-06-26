@@ -39,6 +39,22 @@ function App() {
         <strong>Location</strong> {user.location}
       </p>
 
+      <p>
+        <strong>Eats</strong> {user.foodType}
+      </p>
+      <p>
+        <strong>Age</strong> {user.age}
+      </p>
+      <p>
+        <strong>Likes</strong> {user.likes}
+      </p>
+
+      {/* <p>
+                    {/_ Twitter Link_/}
+          <strong>Twitter</strong>{' '}
+          <a>@{user.twitterUsername}</a>
+        </p> */}
+
       <ScotchInfoBar />
     </div>
   );
